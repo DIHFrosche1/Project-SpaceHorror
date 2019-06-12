@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+///<summary> 
+/// This file simply moves the AI to the patrol state.
+/// Patrol state is used to give the player some breathing room for completeting tasks
+/// </summary>
+
 public class PatrolState : IEnemyMicroState
 {
 
@@ -15,7 +20,7 @@ public class PatrolState : IEnemyMicroState
 
     public void UpdateState()
     {
-
+       
     }
 
     public void OnTriggernEnter(Collider other)

@@ -9,9 +9,13 @@ public class FlashingLightScript : MonoBehaviour
     public GameObject m_FlashingLight;
 
     float m_TimerDelta = 0f;
-    bool m_LightEnabled = false;
 
-    void Update()
+    private void Update()
+    {
+        FlashLight();
+    }
+
+    void FlashLight()
     {
         if (Time.time > m_TimerDelta)
         {
@@ -22,7 +26,6 @@ public class FlashingLightScript : MonoBehaviour
 
     void SwitchLightActive()
     {
-        m_LightEnabled = !m_FlashingLight;
-        m_FlashingLight.SetActive(m_LightEnabled);
+        m_FlashingLight.GetComponent<Light>().enabled = !m_FlashingLight.GetComponent<Light>().enabled;
     }
 }
