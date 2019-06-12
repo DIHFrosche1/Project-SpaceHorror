@@ -1,0 +1,20 @@
+Thank you for leasing my Gimpy Deamon Model!
+Included you will find:
+
+4 Material Maps-
+-gimpy_diffuse (2048x2048)
+-gimpy_specularity (2048x2048)
+-gimpy_self_illumination (1024x1024)
+-gimpy_normal (1024x1024)
+
+all materials are in both Targa and DDS form
+
+Model is 1662 polygons, 3286 triangles, 1664 vertices- completely rigged and skinned using Character Studio's Biped, modified with a simple bone rig and custom attributes for the arm and hand.
+
+Included is a max file "Gimp at Rest" with saved selection sets and a saved biped rest position for easy animating.
+
+
+Also included:
+Low poly Gimpy mesh in both .3ds and .obj form, and High poly proxy Gimpy model in .obj form
+
+Thanks again, any questions or comments, contact Dave Gibbons- theQiwiMan@hotmail.com
