@@ -3172,6 +3172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ef13e704a41dc4439adea37ab8408fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_FlashingLightDelta: 1
+  m_FlashingLight: {fileID: 807093689}
 --- !u!114 &807093691
 MonoBehaviour:
   m_ObjectHideFlags: 0
