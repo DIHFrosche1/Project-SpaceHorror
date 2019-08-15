@@ -20,6 +20,12 @@ public class HuntState : IEnemyMicroState
         m_MicroAI = microAI;
     }
 
+    public void Enter()
+    {
+        m_MicroAI.m_agent.speed = m_MicroAI.m_HuntSpeed;
+        MoveToState(m_MicroAI.m_PatrolState);
+    }
+
     public void UpdateState()
     {
 
@@ -33,5 +39,6 @@ public class HuntState : IEnemyMicroState
     public void MoveToState(IEnemyMicroState state)
     {
         m_MicroAI.m_currentAIState = state;
+        m_MicroAI.m_currentAIState.Enter();
     }
 }
